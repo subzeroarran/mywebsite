@@ -1,11 +1,18 @@
 body {
-    background-color: lightblue;
-    margin: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
     font-family: "Comic Sans MS", Papyrus, cursive;
   }
   
   h1 {
-    color: navy;
+    color: white;
     text-align: center;
     font-family: "Comic Sans MS", Papyrus, cursive;
   }
+
+#  p1 {
+#    color: white;
+#    text-align: center;
+#    font-family: "Comic Sans MS", Papyrus, cursive;
+#  }
