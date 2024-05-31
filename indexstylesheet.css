@@ -10,6 +10,32 @@ h1 {
   text-align: center;
   font-family: "Comic Sans MS", Papyrus, cursive;
 }
+
+a:link {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+  font: bold;
+}
+
+a:visited {
+  color: skyblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /*
   p1 {
     color: white;
