@@ -1,6 +1,7 @@
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
+    text-align: center;
 }
 
 body {
@@ -11,3 +12,42 @@ p {
     font-family: 'Courier New', Courier, monospace;
     color: white;
 }
+
+.fixed_element {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.fade-in-text {
+    opacity: 100%;
+}
+
+.fade-in-text:hover {
+    opacity: 0%;
+    transition: opacity 1s;
+}
+
+a:link, a:visited {
+    background-color: #66b3ff;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: solid;
+    border-color: #66b3ff;
+    border-radius: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 100%;
+}
+
+a:hover, a:active {
+    background-color: rgba(0, 0, 0, .0);
+    border-style: solid;
+    border-color: #66b3ff;
+    border-radius: 12px;
+    transition: opacity 1s;
+    
+}
+
