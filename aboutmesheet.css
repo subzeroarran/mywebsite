@@ -1,37 +1,4 @@
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    text-align: center;
-}
-
-body {
-    background-color: black;
-}
-
-p {
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-}
-
-.fixed_element {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-}
-
-.fade-in-text {
-    opacity: 100%;
-}
-
-.fade-in-text:hover {
-    opacity: 0%;
-    transition: opacity 1s;
-}
-
-a {
-    transition-duration: 0.4s;
-}
-/*
+/* Scrapped Code For Dynamic Links
 a:link, a:visited {
     background-color: #66b3ff;
     color: white;
@@ -55,8 +22,49 @@ a:hover, a:active {
 }
 */
 
+h1 {
+    /* Header formatting */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+body {
+    /* Creates formatting for all text in the page */
+    background-color: black;
+}
+
+p {
+    /* Creates formatting for all text in the paragraph */
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.fixed_element {
+    /* (Currently unused) Changes element position to top-right */
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.fade-in-text {
+    /* (Currently unused) Makes element colour solid */
+    opacity: 100%;
+}
+
+.fade-in-text:hover {
+    /* (Currently unused) Hover transition effect for transparent element */
+    opacity: 0%;
+    transition: opacity 1s;
+}
+
+a {
+    /* How long should link hover effects last? */
+    transition-duration: 0.4s;
+}
 
 ul {
+    /* Code for nav bar setup */
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -69,12 +77,14 @@ ul {
 }
 
 li {
+    /* Code for nav bar content */
     float: left;
     border-bottom: 3px solid white;
     border-top: 3px solid white;
 }
 
 li a {
+    /* Code for nav bar text */
     display: block;
     padding: 10px 16px;
     background-color: white;
@@ -83,15 +93,18 @@ li a {
 }
 
 .active {
-  background-color: black;
-  color: white;
+    /* Active class used in HTML link creation for nav bar */
+    background-color: black;
+    color: white;
 }
 
 li:first-child {
+    /* Adds left-most border to nav bar */
     border-left: 1px solid white;
 }
 
 a:hover, a:active {
+    /* Adds hover response to links */
     background-color: black;
     color: white;
 }
