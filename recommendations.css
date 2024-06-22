@@ -1,0 +1,30 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p:not(#why_popup) {
+    font-size: 1.25em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#why_popup {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    z-index: 1;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 235px;
+    font-size: 0.825em;
+    margin-left: 600px;
+    text-align: center;
+}
+
+#two_hours_why {
+    /* font-weight: bold; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-size: 16px;
+}

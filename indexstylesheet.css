@@ -1,34 +1,5 @@
-/* Scrapped Code For Dynamic Links
-a:link {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-  font: bold;
-}
-
-a:visited {
-  color: skyblue;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:active {
-  color: green;
-  background-color: transparent;
-  text-decoration: underline;
-}
-*/
-
 body {
   /* Creates formatting for all text in the page */
-  background-color: black;
-  color: white;
   text-align: center;
   font-family: "Comic Sans MS", Papyrus, cursive;
 }
@@ -38,55 +9,4 @@ h1 {
   color: white;
   text-align: center;
   font-family: "Comic Sans MS", Papyrus, cursive;
-}
-
-ul {
-    /* Code for nav bar setup */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-
-li {
-    /* Code for nav bar content */
-    float: left;
-    border-bottom: 3px solid white;
-    border-top: 3px solid white;
-}
-
-li a {
-    /* Code for nav bar text */
-    display: block;
-    padding: 10px 16px;
-    background-color: white;
-    color: black;
-    text-decoration: none;
-}
-
-.active {
-  /* Active class used in HTML link creation for nav bar */
-  background-color: black;
-  color: white;
-}
-
-li:first-child {
-  /* Adds left-most border to nav bar */
-  border-left: 1px solid white;
-}
-
-a:hover, a:active {
-  /* Adds hover response to links */
-  background-color: black;
-  color: white;
-}
-
-a {
-  /* How long should link hover effects last? */
-  transition-duration: 0.4s;
 }

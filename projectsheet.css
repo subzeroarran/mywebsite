@@ -1,0 +1,27 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content {
+    color: white;
+    background-color: black;
+}
+
+ul:not(.resource_links) {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#possible {
+    text-align: center;
+}
+
+a.resource_links {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a.resource_links:active {
+    color: yellow;
+    font-weight: bold;
+}

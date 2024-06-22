@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projects</title>
+        <link rel="stylesheet" href="projectsheet.css">
+        <link rel="stylesheet" href="navcodesheet.css">
+    </head>
+    <body>
+        <!-- Code for Nav Bar, .active changes link colours -->
+            <ul class="nav">
+                <li class="nav"><a class="nav" href="index.html">Home</a></li>
+                <li class="nav"><a class="nav" href="aboutme.html">About This Site</a></li>
+                <li class="nav"><a class="nav" href="portfolio.html">Portfolio</a></li>
+                <li class="nav"><a class="nav" href="tevita.html">Tevita</a></li>
+                <li class="nav"><a class="nav_active" href="projects.html">Projects</a></li>
+                <li class="nav"><a class="nav" href="recommendations.html">Game Recommendations</a></li>
+            </ul>
+        <h1 style="margin-left: 10px;">MY PROJECTS</h1>
+        <p style="margin-left: 10px;">
+            These are some of the projects I am working on or have completed.
+        </p>
+        <h2 style="text-align: center;">Online Courses:</h2>
+        <!--
+        <ul class="content">
+            <li class="content">Learning How to Learn - Deep Teaching Solutions</li>
+            <li class="content">Foundations of Cybersecurity - Google</li>
+        </ul>
+        -->
+        <p class="content" style="text-align: center;">
+            Learning How to Learn - Deep Teaching Solutions<br><span style="color: yellow;">In Progress</span><br><br>
+            Foundations of Cybersecurity - Google<br><span style="color: yellow;">In Progress</span>
+        </p>
+        <h2 id="possible">Possible Projects:</h2>
+        <p class="possible_projects" style="text-align: center;">
+            To Do List - <span style="color: yellow;">JavaScript</span><br>Calculator - <span style="color: yellow;">Mathematical Operations</span><br>Random Quote Generator - <span style="color: yellow;">APIs</span><br>
+            Quiz Program - <span style="color: yellow;">JavaScript</span><br>Chat Bot - <span style="color: yellow;">APIs + User Input</span>
+        </p>
+        <h2 id="resources" style="margin-left: 10px;">Resources:</h2>
+        <ul class="resource_links">
+        <li><a class="resource_links" href="https://aquadzn.github.io/learn-x-by-doing-y" target="_blank">Learn X by Doing Y</a></li>
+        <li><a class="resource_links" href="https://github.com/codecrafters-io/build-your-own-x" target="_blank">Build Your Own X</a></li>
+        </ul>
+    </body>
+</html>

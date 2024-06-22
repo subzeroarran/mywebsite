@@ -1,0 +1,32 @@
+ul {
+    
+    list-style-position: inside;
+}
+a {
+    color: white;
+    transition-duration: 0.4s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#warning {
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a:hover, a:active {
+    color: lawngreen;
+}
+h1 {
+    margin-left: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#smapi_link:hover, #smapi_link:active {
+    color: yellow;
+}
+#ja_link:hover, #ja_link:active {
+    color: lightseagreen;
+}
+#spacecore_link:hover, #spacecore_link:active {
+    color: violet;
+}
+#epu_link:hover, #epu_link:active {
+    color: orangered;
+}

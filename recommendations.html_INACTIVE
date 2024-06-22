@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recommendations</title>
+        <link rel="stylesheet" href="navcodesheet.css">
+        <link rel="stylesheet" href="recommendations.css">
+    </head>
+    <body>
+        <ul class="nav">
+            <li class="nav"><a class="nav" href="index.html">Home</a></li>
+            <li class="nav"><a class="nav" href="aboutme.html">About This Site</a></li>
+            <li class="nav"><a class="nav" href="portfolio.html">Portfolio</a></li>
+            <li class="nav"><a class="nav" href="tevita.html">Tevita</a></li>
+            <li class="nav"><a class="nav" href="projects.html">Projects</a></li>
+            <li class="nav"><a class="nav_active" href="recommendations.html">Game Recommendations</a></li>
+        </ul>
+        <h1 style="margin-left: 10px;">Recommendations</h1>
+        <p id="why_popup"><span id="two_hours_why">WHY 2 HOURS?</span><br>It is my belief that experiences<br>under two hours do not provide a good<br>view of gameplay and mechanics.</p>
+        <p style="margin-left: 10px;">From this page I will be reviewing games I have played for more than 2 hours.</p>
+    </body>
+</html>
