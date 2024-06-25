@@ -7,9 +7,38 @@ a {
     transition-duration: 0.4s;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.link_underline {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+#stardew_header {
+    position: relative;
+    left: 27px;
+    display: inline-block;
+    background: rgb(0,24,117);
+    background: linear-gradient(90deg, rgba(0,24,117,1) 25%, rgba(18,168,159,1) 75%); 
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 #warning {
     color: red;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.link_underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    transition: width 0.5s ease;
+}
+.link_underline:hover::after {
+    width: 100%;
 }
 a:hover, a:active {
     color: lawngreen;
@@ -21,12 +50,27 @@ h1 {
 #smapi_link:hover, #smapi_link:active {
     color: yellow;
 }
+#smapi_link::after {
+    background-color: yellow;
+}
 #ja_link:hover, #ja_link:active {
     color: lightseagreen;
+}
+#ja_link::after {
+    background-color: lightseagreen;
 }
 #spacecore_link:hover, #spacecore_link:active {
     color: violet;
 }
+#spacecore_link::after {
+    background-color: violet;
+}
 #epu_link:hover, #epu_link:active {
     color: orangered;
+}
+#epu_link::after {
+    background-color: orangered;
+}
+#weed_mod_link::after {
+    background-color: lawngreen;
 }
